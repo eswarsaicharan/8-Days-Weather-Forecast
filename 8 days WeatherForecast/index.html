@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel = "icon" href = 
+    "https://1080px.net/files/preview/1280x800/11595075042k45cbyeawv60rsu9dirhhtjod4zi6227gx3jtxw1e5andt30qapuyv8n2m9ffuez17i6xog5gapubkmklydjvf5vpxuf4ihjbhyk.jpg" 
+            type = "image/x-icon">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="currentInfo">
+            <div class="time-date">
+                <div class="time" id="time">
+                    9:30 <span id="am-pm">PM</span>
+                </div>
+                <div class="date" id="date">
+                    Monday,5 March 2022
+                </div>
+            </div>
+            <div class="Location">
+                <div class="time-zone" id="time-zone">Delhi</div>
+                <div class="locItem">
+                    <input type="text" placeholder="Enter your City" id="inputLoc">
+                    <input type="button" value="&#128269;" id="searchLoc">
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="forecast" id="forecast">
+            <div class="curForecast btn" id="curForecast">
+                <img src="" width="100px" alt="">
+                <div class="other">
+                    <div class="day">Monday</div>
+                    <div class="temp">Day - 12&#176;C</div>
+                    <div class="temp">Night - 12&#176;C</div>
+                </div>
+            </div>
+            
+            <div class="futureForecast btn" id="futureForecast">
+                <div class="futureForecast-item" id="btn2">
+                    <div class="day">Tuesday</div>
+                    <img src="" width="100px" alt="">
+                    <div class="temp">Day - 13&#176;C</div>
+                    <div class="temp">Night - 13&#176;C</div>
+                </div>
+                <div class="futureForecast-item" id="btn3">
+                    <div class="day">Wednesay</div>
+                    <img src="" width="100px" alt="">
+                    <div class="temp">Day - 13&#176;C</div>
+                    <div class="temp">Night - 13&#176;C</div>
+                </div>
+                <div class="futureForecast-item" id="btn4">
+                    <div class="day">Thursday</div>
+                    <img src="" width="100px" alt="">
+                    <div class="temp">Day - 13&#176;C</div>
+                    <div class="temp">Night - 13&#176;C</div>
+                </div>
+                <div class="futureForecast-item" id="btn5">
+                    <div class="day">Friday</div>
+                    <img src="" width="100px" alt="">
+                    <div class="temp">Day - 13&#176;C</div>
+                    <div class="temp">Night - 13&#176;C</div>
+                </div>
+                <div class="futureForecast-item" id="btn6">
+                    <div class="day">Saturday</div>
+                    <img src="" width="100px" alt="">
+                    <div class="temp">Day - 13&#176;C</div>
+                    <div class="temp">Night - 13&#176;C</div>
+                </div>
+                <div class="futureForecast-item" id="btn7">
+                    <div class="day">Sunday</div>
+                    <img src="" width="100px" alt="">
+                    <div class="temp">Day - 13&#176;C</div>
+                    <div class="temp">Night - 13&#176;C</div>
+                </div>
+                <div class="futureForecast-item" id="btn8">
+                    <div class="day">Sunday</div>
+                    <img src="" width="100px" alt="">
+                    <div class="temp">Day - 13&#176;C</div>
+                    <div class="temp">Night - 13&#176;C</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="current-weather-condition" id="current-weather-condition">
+            <div class="weather-item">
+                <div>Humidity</div>
+                <div>95%</div>
+            </div>
+            <div class="weather-item">
+                <div>Pressure</div>
+                <div>1200</div>
+            </div>
+            <div class="weather-item">
+                <div>Wind Speed</div>
+                <div>3 m/s</div>
+            </div>
+            <div class="weather-item">
+                <div>Cloudy</div>
+                <div>40</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="index.js"></script>
+</body>
+</html>
+
+
